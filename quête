@@ -1,0 +1,148 @@
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   148  100   148    0     0    421      0 --:--:-- --:--:-- --:--:--   422
+100   159  100   159    0     0    275      0 --:--:-- --:--:-- --:--:--   275
+100  293k  100  293k    0     0   289k      0  0:00:01  0:00:01 --:--:-- 3730k
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ unzip planets.zip
+Archive:  planets.zip
+   creating: planets/
+  inflating: planets/mercury.jpeg
+  inflating: planets/earth.jpeg
+  inflating: planets/pluto.jpeg
+  inflating: planets/arrakis.jpeg
+  inflating: planets/jupiter.jpeg
+  inflating: planets/venus.jpeg
+  inflating: planets/mars.jpeg
+  inflating: planets/cybertron.jpeg
+  inflating: planets/coruscant.jpeg
+  inflating: planets/uranus.jpeg
+  inflating: planets/neptune.jpeg
+  inflating: planets/saturn.jpeg
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mkdir planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mkdir planets/fictional
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mkdir planets/inhabited
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mkdir terrestrial
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mkdir gas-giants
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mkdir dwarf-planets
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/mercury.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/earth.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/pluto.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/jupiter.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/venus.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/mars.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/uranus.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/neptune.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/saturn.jpeg planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mkdir planets/fictives
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/arrakis.jpeg planets/fictives
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/cybertron.jpeg planets/fictives
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ mv planets/coruscant.jpeg planets/fictives
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ find
+.
+./carrot
+./cauliflower
+./courgette
+./dwarf-planets
+./fruits
+./fruits/apple
+./fruits/apricot
+./fruits/banana
+./gas-giants
+./parsnip
+./planets
+./planets/fictional
+./planets/fictives
+./planets/fictives/arrakis.jpeg
+./planets/fictives/coruscant.jpeg
+./planets/fictives/cybertron.jpeg
+./planets/inhabited
+./planets/real
+./planets/real/earth.jpeg
+./planets/real/jupiter.jpeg
+./planets/real/mars.jpeg
+./planets/real/mercury.jpeg
+./planets/real/neptune.jpeg
+./planets/real/pluto.jpeg
+./planets/real/saturn.jpeg
+./planets/real/uranus.jpeg
+./planets/real/venus.jpeg
+./planets.zip
+./terrestrial
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ rm -r planets/real
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ ls
+carrot  cauliflower  courgette  dwarf-planets/  fruits/  gas-giants/  parsnip  planets/  planets.zip  terrestrial/
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$ find
+.
+./carrot
+./cauliflower
+./courgette
+./dwarf-planets
+./fruits
+./fruits/apple
+./fruits/apricot
+./fruits/banana
+./gas-giants
+./parsnip
+./planets
+./planets/fictional
+./planets/fictives
+./planets/fictives/arrakis.jpeg
+./planets/fictives/coruscant.jpeg
+./planets/fictives/cybertron.jpeg
+./planets/inhabited
+./planets.zip
+./terrestrial
+
+Wild isa@DESKTOP-5KBHI67 MINGW64 ~/quests/shell
+$
